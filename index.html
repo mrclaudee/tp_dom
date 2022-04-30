@@ -1,0 +1,37 @@
+<!DOCTYPE html>
+<html lang="fr">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css" type="text/css">
+    <title>Devoir JS</title>
+</head>
+<body>
+    <div class="form">
+        <h1>Devoir JS DOM</h1>
+        <form onsubmit="showArray(this)">
+            <div>
+                <label for="item">Entrer un élément</label>
+            </div>
+            <div class="form-item">
+                <input type="text" name="item" id="item">
+                <input id="add" type="submit" value="Ajouter">
+                <div id="items"></div>
+            </div>
+            <div class="buttons">
+                <button id="send" type="submit">Envoyer</button>
+                <button id="reset" type="reset">Reset</button>
+            </div>
+        </form>
+        <fieldset>
+            <div id="result">Rien pour le moment</div>
+            <legend>Résultat</legend>
+        </fieldset>
+    </div>
+    <footer>
+        <div id="copyright"></div>
+    </footer>
+    <script src="main.js"></script>
+</body>
+</html>
